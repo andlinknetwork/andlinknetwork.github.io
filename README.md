@@ -1,2 +1,2 @@
 # andlinknet.github.io
-ISOLIR MANAGEMENT
+ISOLIR PAGE
