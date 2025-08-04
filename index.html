@@ -1,108 +1,122 @@
 <!DOCTYPE html>
-
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>⚠️INTERNET TERISOLIR</title>
-<style>
-body {
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-margin: 0;
-background-color: #f8f9fa;
-color: #495057;
-display: flex;
-justify-content: center;
-align-items: center;
-min-height: 100vh;
-padding: 30px;
-box-sizing: border-box;
-}
-.container {
-background-color: #fff;
-padding: 40px;
-border-radius: 12px;
-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-text-align: center;
-max-width: 95%;
-width: 600px;
-}
-.warning-icon {
-font-size: 4em;
-color: #dc3545; /* Warna merah peringatan /
-margin-bottom: 20px;
-}
-h1 {
-color: #343a40;
-margin-bottom: 25px;
-}
-.important-message {
-background-color: #ffebee; / Latar belakang merah muda lembut untuk penekanan /
-color: #dc3545;
-padding: 15px;
-border-radius: 8px;
-margin-bottom: 20px;
-border: 1px solid #f5c6cb;
-}
-.message-body {
-line-height: 1.7;
-margin-bottom: 15px;
-text-align: left;
-}
-.note {
-font-style: italic;
-color: #6c757d;
-margin-top: 25px;
-}
-.button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #007bff;
-color: #fff;
-border: none;
-border-radius: 5px;
-text-decoration: none;
-margin-top: 20px;
-transition: background-color 0.3s ease;
-}
-.button:hover {
-background-color: #0056b3;
-}
-/ Responsive Design */
-@media (max-width: 768px) {
-.container {
-padding: 30px;
-}
-.warning-icon {
-font-size: 3em;
-margin-bottom: 15px;
-}
-h1 {
-font-size: 1.8em;
-margin-bottom: 20px;
-}
-.message-body {
-font-size: 0.95em;
-}
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚠️ Expired</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            background-color: #f8f9fa;
+            color: #495057;
+            display: flex;
+            flex-direction: column; /* Mengubah arah flex untuk menempatkan footer di bawah */
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+            border-top: 5px solid #dc3545; /* Aksen warna peringatan di atas */
+            margin-bottom: 2rem; /* Memberi ruang untuk footer */
+        }
+        .warning-icon {
+            font-size: 3.5em;
+            color: #dc3545;
+            line-height: 1;
+            margin-bottom: 15px;
+        }
+        h1 {
+            color: #343a40;
+            font-size: 1.8em;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        .message-header {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #dc3545;
+        }
+        .message-body {
+            line-height: 1.7;
+            margin-top: 15px;
+            margin-bottom: 25px;
+            text-align: left;
+            color: #212529;
+        }
+        .note-box {
+            background-color: #e9ecef;
+            border-left: 4px solid #007bff; /* Aksen biru untuk catatan */
+            padding: 15px 20px;
+            margin-top: 25px;
+            border-radius: 8px;
+            text-align: left;
+        }
+        .note-box p {
+            margin: 0;
+            font-style: normal;
+            font-size: 0.95em;
+            color: #495057;
+        }
+        .note-box strong {
+            color: #0056b3;
+        }
+        footer {
+            width: 100%;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            .container {
+                padding: 25px 20px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            .warning-icon {
+                font-size: 3em;
+            }
+        }
+    </style>
 </head>
 <body>
-<div class="container">
-<div class="warning-icon">⚠️</div>
-<h1>Pelanggan Yang Terhormat.</h1>
-<div class="important-message">
-<strong>Pemberitahuan Penting!</strong>
-<p class="message-body">
-Layanan internet Anda saat ini sedang <strong>diisolir secara otomatis</strong> oleh sistem kami. Kami mohon maaf atas ketidaknyamanan yang terjadi.
-</p>
-</div>
-<div class="message-body">
-<p>Agar layanan dapat digunakan kembali, segera lakukan <strong>pembayaran tagihan</strong> Anda.</p>
-<p>Untuk menghindari isolir di kemudian hari, pastikan pembayaran dilakukan sebelum tanggal jatuh tempo.</p>
-<p>Terima kasih atas perhatiannya.</p>
-</div>
-<p class="note"><strong>Catatan:</strong> Setelah melakukan pembayaran, mohon <strong>restart perangkat Anda</strong> agar koneksi internet kembali normal.</p>
-</div>
+
+    <div class="container">
+        <div class="warning-icon">⚠️</div>
+        <h1>MasaAktif Habis</h1>
+        
+        <p class="message-header">Layanan Anda Diisolir Sementara</p>
+        
+        <div class="message-body">
+            <p><strong>Pelanggan yang terhormat,</strong></p>
+            <p>Kami informasikan bahwa layanan internet Anda saat ini sedang diisolir secara otomatis oleh sistem kami. Mohon maaf atas ketidaknyamanannya.</p>
+            <p>Agar dapat digunakan kembali, mohon segera melakukan <strong>pembayaran tagihan.</strong> Untuk menghindari terisolir berikutnya, dimohon agar melakukan pembayaran sebelum tanggal jatuh tempo.</p>
+            <p>Terima kasih.</p>
+        </div>
+
+        <div class="note-box">
+            <p><strong>Note:</strong> Setelah melakukan pembayaran, silahkan <strong>RESTART PERANGKAT</strong> Anda (modem/router) agar internet kembali normal.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>ANDLINK NETWORK INDONESIA &copy; 2025</p>
+    </footer>
+
 </body>
 </html>
