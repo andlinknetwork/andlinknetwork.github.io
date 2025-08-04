@@ -1,42 +1,108 @@
-
-
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>INTERNET TERISOLIR</title>
-    <meta name="robots" content="noindex">
-    <meta name="googlebot" content="noindex">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="all,follow">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="style.default.css" id="theme-stylesheet">
-    <link rel="shortcut icon" href="favicon.png">
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="row min-vh-100">
-        <div class="col-xl-5 col-lg-6 col-md-8 p-5 p-lg-4 mx-auto d-flex align-items-center">
-          <div>
-            <p> <img src="logo.png" class="img-fluid" alt="Responsive image"></p>
-            <p class="lead">Pelanggan yang terhormat,</p>
-            <p class="lead">Kami informasikan bahwa layanan internet anda saat ini sedang di isolir secara otomatis oleh sistem billing kami. </p>
-            <p class="lead">Mohon maaf atas ketidaknyamanannya,<br> Agar dapat digunakan kembali, mohon melakukan pembayaran tagihan. </p> 
-            <p class="lead"> Untuk menghindari terisolir berikutnya, dimohon agar melakukan pembayaran sebelum tanggal jatuh tempo <br> Terima kasih.</p>
-	        <code>
-		 <b><i>Note:</b> Setelah Melakukan Pembayaran Silahkan Restart perangkat Anda, Agar INTERNET NORMAL Kembali.</i>
-		</code><br/><br/>
-		<div align="center">  Jika Belum Berhasil Silahkan Hubungi Teknisi </div>
-            <p class="credit"><a href="#" class="external text-reset">2020 - Ahmad Nur Daim, S.Kom</a>  </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- JavaScript files-->
-    <script src="jquery.min.js"></script>
-    <script src="bootstrap.bundle.min.js"></script>
-    <script src="front.js"></script>
-  </body>
+
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>⚠️ Informasi Penting Layanan Internet Anda</title>
+<style>
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0;
+background-color: #f8f9fa;
+color: #495057;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+padding: 30px;
+box-sizing: border-box;
+}
+.container {
+background-color: #fff;
+padding: 40px;
+border-radius: 12px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+text-align: center;
+max-width: 95%;
+width: 600px;
+}
+.warning-icon {
+font-size: 4em;
+color: #dc3545; /* Warna merah peringatan /
+margin-bottom: 20px;
+}
+h1 {
+color: #343a40;
+margin-bottom: 25px;
+}
+.important-message {
+background-color: #ffebee; / Latar belakang merah muda lembut untuk penekanan /
+color: #dc3545;
+padding: 15px;
+border-radius: 8px;
+margin-bottom: 20px;
+border: 1px solid #f5c6cb;
+}
+.message-body {
+line-height: 1.7;
+margin-bottom: 15px;
+text-align: left;
+}
+.note {
+font-style: italic;
+color: #6c757d;
+margin-top: 25px;
+}
+.button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+text-decoration: none;
+margin-top: 20px;
+transition: background-color 0.3s ease;
+}
+.button:hover {
+background-color: #0056b3;
+}
+/ Responsive Design */
+@media (max-width: 768px) {
+.container {
+padding: 30px;
+}
+.warning-icon {
+font-size: 3em;
+margin-bottom: 15px;
+}
+h1 {
+font-size: 1.8em;
+margin-bottom: 20px;
+}
+.message-body {
+font-size: 0.95em;
+}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="warning-icon">⚠️</div>
+<h1>Informasi Penting Layanan Internet Anda</h1>
+<div class="important-message">
+<strong>Pemberitahuan Penting!</strong>
+<p class="message-body">
+Layanan internet Anda saat ini sedang <strong>diisolir secara otomatis</strong> oleh sistem billing kami. Kami mohon maaf atas ketidaknyamanan yang terjadi.
+</p>
+</div>
+<div class="message-body">
+<p>Agar layanan dapat digunakan kembali, segera lakukan <strong>pembayaran tagihan</strong> Anda.</p>
+<p>Untuk menghindari isolir di kemudian hari, pastikan pembayaran dilakukan sebelum tanggal jatuh tempo.</p>
+<p>Terima kasih atas perhatiannya.</p>
+</div>
+<p class="note"><strong>Catatan:</strong> Setelah melakukan pembayaran, mohon <strong>restart perangkat Anda</strong> agar koneksi internet kembali normal.</p>
+</div>
+</body>
 </html>
